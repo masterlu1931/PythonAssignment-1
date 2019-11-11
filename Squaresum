@@ -1,0 +1,7 @@
+a=int(input('Enter a N number: '))
+def squaresum(a):
+    sqs=0;
+    for s in range (1,a+1):
+        sqs= sqs +(s*s)
+    return sqs
+print ('The square sum of',a,'is',squaresum(a))
