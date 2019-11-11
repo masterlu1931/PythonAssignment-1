@@ -1,0 +1,4 @@
+letters= input('Enter a letter: ')
+if (letters =='a'or letters =='e'or letters =='i'or letters=='o'or letters =='u'or letters =='A'or letters =='E'or letters =='I'or letters =='O'or letters =='U'):
+    print(letters,' is a vowel.' )
+else: print( letters,'is a consonant.')
